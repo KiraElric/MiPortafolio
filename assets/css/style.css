@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@200;700&display=swap');
+
+body {
+  /* Texto */
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar .container-fluid {
+  height: 3.75rem;
+  padding: 1.25rem 9.375rem;
+}
+
+.bg-light {
+  background-color: #660066!important;
+}
+
+.h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+}
+
+.nav-item li a {
+  text-align: left;
+  font-size: 16px;
+}
+
+.titulo-footer h2 {
+  font-size: 40px;
+}
+
+
+@media (max-width: 576px){
+  .navbar .container-fluid {
+    padding: 0.625rem 2.5rem;
+    align-items: flex-start;
+  }
+
+}
