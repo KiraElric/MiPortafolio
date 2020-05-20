@@ -28,6 +28,48 @@ body {
   font-size: 40px;
 }
 
+header {
+  width: 100%;
+  height: 46.0625rem;
+  display: block;
+  clear: both;
+  position: relative;
+  padding-top: 3.75rem;
+}
+
+header img {
+  position: absolute;
+  top:0;
+  left:0;
+  z-index:-1;
+  width: 100%;
+  height: 100%;
+}
+
+.object-fit {
+  object-fit: cover;
+  object-position: center;
+}
+
+.presentation {
+  padding: 29.6875rem 28.90625rem 2.8125rem 28.84375rem;
+}
+
+.presentation h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 72px;
+}
+
+.name {
+  font-family: 'Oswald', sans-serif;
+  font-size: 72px;
+  display: block;
+  border-top: 2px solid #ffffff;
+}
+
+#about {
+  margin-top: 5.25rem;
+}
 
 @media (max-width: 576px){
   .navbar .container-fluid {
