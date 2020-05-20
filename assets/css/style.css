@@ -1,13 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@200;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Oswald:wght@200;300;400;600;700&display=swap');
 
 body {
-  /* Texto */
   font-family: 'Open Sans', sans-serif;
 }
 
-.navbar .container-fluid {
+.navbar .container {
   height: 3.75rem;
-  padding: 1.25rem 9.375rem;
 }
 
 .bg-light {
@@ -21,11 +19,8 @@ body {
 
 .nav-item li a {
   text-align: left;
+  font-weight: 400;
   font-size: 16px;
-}
-
-.titulo-footer h2 {
-  font-size: 40px;
 }
 
 header {
@@ -51,11 +46,12 @@ header img {
   object-position: center;
 }
 
-.presentation {
-  padding: 29.6875rem 28.90625rem 2.8125rem 28.84375rem;
+.presentacion {
+  padding-top: 29.6875rem;
+  padding-bottom: 2.8125rem;
 }
 
-.presentation h1 {
+.presentacion h1 {
   font-family: 'Oswald', sans-serif;
   font-size: 72px;
 }
@@ -63,18 +59,131 @@ header img {
 .name {
   font-family: 'Oswald', sans-serif;
   font-size: 72px;
-  display: block;
   border-top: 2px solid #ffffff;
 }
 
 #about {
-  margin-top: 5.25rem;
+  padding-top: 5.25rem;
+  padding-bottom: 2.96875rem;
+}
+
+.descripcion h2 {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.texto-descripcion p {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+hr {
+  border-width: 2px;
+  width: 6%;
+}
+
+.titulo h2 {
+  font-family: 'Oswald',sans-serif;
+  font-size: 52px;
+}
+
+#exp {
+  padding-bottom: 5.5rem;
+}
+
+.iconos i {
+  color: #660066;
+}
+
+.iconos h4 {
+  font-family: 'Oswald',sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.year {
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  display: block;
+}
+
+article {
+  background-color: #660066;
+  padding-top: 3.3125rem;
+  padding-bottom: 6.6875rem;
+}
+
+.card-title {
+  font-family: 'Oswald',sans-serif;
+  font-weight: 400;
+  font-size: 23px;
+}
+
+.card-text {
+  font-size: 16px;
+}
+
+.modal-title {
+  font-family: 'Oswald',sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.modal-body {
+  font-weight: 400;
+  font-size: 18px;
 }
 
 @media (max-width: 576px){
-  .navbar .container-fluid {
-    padding: 0.625rem 2.5rem;
-    align-items: flex-start;
+  .navbar .container {
+    padding: 0 2.5rem;
   }
 
+  header {
+    height: 31.6875rem;
+  }
+
+  .presentacion {
+    padding-top: 20rem;
+    padding-bottom: 2rem;
+  }
+
+  .presentacion h1 {
+    font-size: 40px;
+  }
+
+  .name {
+    font-size: 40px;
+  }
+
+  #exp {
+    padding-top: 2.0625rem;
+    padding-bottom: 2.9375rem;
+  }
+
+  .titulo h2 {
+    font-size: 35px;
+  }
+
+  hr {
+    width: 35%;
+  }
+
+  article {
+    padding-top: 3.8125rem;
+    padding-bottom: 3.1875rem;
+  }
+
+  .card-title {
+    font-size: 17px;
+  }
+
+  .modal-title {
+    font-size: 30px;
+  }
+
+  .modal-body {
+    font-size: 16px;
+  }
 }
