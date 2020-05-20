@@ -135,6 +135,10 @@ article {
   font-size: 18px;
 }
 
+#contact {
+  padding-top: 5rem;
+}
+
 @media (max-width: 576px){
   .navbar .container {
     padding: 0 2.5rem;
@@ -185,5 +189,9 @@ article {
 
   .modal-body {
     font-size: 16px;
+  }
+
+  #contact {
+    padding-top: 2.1875rem;
   }
 }
