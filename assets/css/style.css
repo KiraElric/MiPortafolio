@@ -8,7 +8,7 @@ body {
   height: 3.75rem;
 }
 
-.bg-light {
+.bg-dark {
   background-color: #660066!important;
 }
 
@@ -64,7 +64,6 @@ header img {
 
 #about {
   padding-top: 5.25rem;
-  padding-bottom: 2.96875rem;
 }
 
 .descripcion h2 {
@@ -88,6 +87,7 @@ hr {
 }
 
 #exp {
+  padding-top: 3.2rem;
   padding-bottom: 5.5rem;
 }
 
@@ -139,6 +139,23 @@ article {
   padding-top: 5rem;
 }
 
+footer {
+  padding-top: 5.125rem;
+}
+
+.name-footer {
+  font-family: 'Oswald',sans-serif;
+  font-size: 40px;
+  text-align: left;
+}
+
+.lista-iconos {
+  text-align: right;
+}
+
+.lista-iconos i {
+  color: #ffffff;
+}
 @media (max-width: 576px){
   .navbar .container {
     padding: 0 2.5rem;
@@ -162,7 +179,7 @@ article {
   }
 
   #exp {
-    padding-top: 2.0625rem;
+    padding-top: 3.3rem;
     padding-bottom: 2.9375rem;
   }
 
@@ -176,7 +193,7 @@ article {
 
   article {
     padding-top: 3.8125rem;
-    padding-bottom: 3.1875rem;
+    padding-bottom: 2rem;
   }
 
   .card-title {
@@ -192,6 +209,19 @@ article {
   }
 
   #contact {
-    padding-top: 2.1875rem;
+    padding-top: 3.2rem;
+  }
+
+  .name-footer {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  footer {
+    padding-top: 2.8125rem;
+  }
+
+  .lista-iconos {
+    text-align: center;
   }
 }
